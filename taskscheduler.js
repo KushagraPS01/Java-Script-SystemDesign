@@ -65,7 +65,7 @@ async function saveToDB(message) {
     return new Promise((res, rej) =>
         setTimeout(() => 
             console.log('Message ${message} saved to DB!')),
-        2*1000      // I'll take around 2 sec to 
+        2*1000      // It'll take around 2 sec to run
     )  
 }
 
